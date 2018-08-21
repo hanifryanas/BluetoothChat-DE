@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="138dp"
+        android:layout_height="38dp"
+        android:layout_gravity="end"
+        android:layout_margin="4dp"
+        android:background="@drawable/bubble_blue"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/message"
+            android:layout_width="120dp"
+            android:layout_height="match_parent"
+            android:gravity="end"
+            android:paddingBottom="2dp"
+            android:paddingEnd="8dp"
+            android:paddingLeft="8dp"
+            android:paddingRight="8dp"
+            android:paddingStart="8dp"
+            android:paddingTop="4dp"
+            android:shadowColor="@android:color/holo_blue_dark"
+            android:shadowRadius="2"
+            android:text="Hello people"
+            android:textSize="14sp" />
+
+        <TextView
+            android:id="@+id/ts"
+            android:gravity="end"
+            android:textColor="@color/colorAccent"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="10sp"
+            android:paddingBottom="2dp"
+            android:paddingEnd="4dp"
+            android:paddingLeft="4dp"
+            android:paddingRight="4dp"
+            android:paddingStart="4dp"
+             />
+    </LinearLayout>
+</LinearLayout>
+
